@@ -32,11 +32,14 @@ are already deprecated.
 Usage
 ---
 
-1. Install scrapy
-2. Modify panfoopy.spiders.pandora_spider to have a list of your favorite resturants
+Install scrapy  
+Modify panfoopy.spiders.pandora_spider to have a list of your favorite resturants
+
     # yelp unique url endings for each restaurant
     RESTAURANTS = ['jims-original-hot-dog-chicago-2', \
                    'hoagy-house-chicago']
-3. Run:
+                   
+Run:
+
     scrapy crawl yelp -o output_filename.csv -t csv
 
